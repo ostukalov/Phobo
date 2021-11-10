@@ -1,0 +1,30 @@
+{
+  "name": "p5js-with-typescript",
+  "version": "1.0.0",
+  "description": "A template for a p5.js sketch using Typescript",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "clayout": "1.0.4",
+    "immer": "9.0.6",
+    "mobx": "6.3.5",
+    "mobx-react": "7.2.1",
+    "p5": "0.9.0",
+    "ramda": "0.27.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-p5-wrapper": "3.0.2"
+  },
+  "devDependencies": {
+    "@types/ramda": "0.27.46",
+    "@types/p5": "0.9.0",
+    "@types/react-dom": "17.0.9",
+    "@types/react": "17.0.30",
+    "parcel-bundler": "^1.6.1",
+    "typescript": "4.4.4"
+  },
+  "keywords": ["p5js", "typescript"]
+}
